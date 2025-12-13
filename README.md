@@ -25,7 +25,8 @@ This is a project following the spesification on roadmaps. This project implemen
 - TODO
 
 ## Run
-- TODO
+- gradle build
+- gradle bootRun
 
 ## System structure
 - TODO     
