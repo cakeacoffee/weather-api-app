@@ -5,9 +5,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ExampleController {
-    @GetMapping("/")
-    public String hello() {
-        return "Hello, Spring Boot!";
+    /** --- Return JSON --- **/
+    @GetMapping("/api/weather")
+    public ExampleResponse getWeather() {
+        return new ExampleResponse(
+                "London",
+                18,
+                "Cloudy"
+        );
     }
     
 }
