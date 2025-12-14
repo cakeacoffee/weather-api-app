@@ -33,3 +33,6 @@ This is a project following the spesification on roadmaps. This project implemen
 
 ## API Endpoints
 - TODO
+
+## Application Archutecture
+![arc-diagram](arc-diagram.png)
